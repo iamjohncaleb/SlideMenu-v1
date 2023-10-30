@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
+    
 }
 .header {
     width: 100%;
@@ -10,6 +11,7 @@
     background-image: url(images/background.png);
     background-position: center;
     background-size: cover;
+    
 }
 .side-nav {
     width: 110px;
@@ -24,6 +26,7 @@
     justify-content: space-between;
     flex-direction: column;
     transition: width 0.5s;
+    
 }
 .user {
     display: flex;
@@ -36,27 +39,33 @@
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
+    
 }
 .user div {
     display: none;
+    
 }
 .user h2 {
     font-size: 15px;
     font-weight: 600;
     white-space: nowrap;
+    
 }
 .user-img {
     width: 40px;
     border-radius: 50%;
     margin: auto;
+    
 }
 .star-img {
     width: 20px;
     display: none;
+    
 }
 ul {
     list-style: none;
     padding: 0 15px;
+    
 }
 ul li {
     margin: 30px 0;
@@ -64,37 +73,47 @@ ul li {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    
 }
 ul li img {
     width: 30px;
     margin-right: 0px;
+    
 }
 ul li p {
     white-space: nowrap;
     display: none;
+    
 }
 .side-nav:hover {
     width: 250px;
+    
 }
 .side-nav:hover .user div {
     display: block;
+    
 }
 .side-nav:hover .user {
     width: 100%;
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(5px);
+    
 }
 .side-nav:hover .star-img {
     display: block;
+    
 }
 .side-nav:hover .user-img{
     margin: 0;
+    
 }
 .side-nav:hover ul li p {
     display: block;
+    
 }
 .side-nav:hover ul li img {
     margin-right: 10px;
+    
 }
 .side-nav:hover ul li{
     justify-content: flex-start;
