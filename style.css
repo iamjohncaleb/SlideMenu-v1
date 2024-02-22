@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'poppins', sans-serif; 
 }
+
 .header {
     width: 100%;
     height: 100vh ;
@@ -11,6 +12,7 @@
     background-position: center;
     background-size: cover; 
 }
+
 .side-nav {
     width: 110px;
     height: 100%;
@@ -25,6 +27,7 @@
     flex-direction: column;
     transition: width 0.5s;  
 }
+
 .user {
     display: flex;
     align-items: center;
@@ -37,14 +40,17 @@
     margin-right: auto;
     overflow: hidden;
 }
+
 .user div {
     display: none;
 }
+
 .user h2 {
     font-size: 15px;
     font-weight: 600;
     white-space: nowrap;
 }
+
 .user-img {
     width: 40px;
     border-radius: 50%;
